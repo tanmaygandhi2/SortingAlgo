@@ -10,7 +10,7 @@ void swap(int *a, int *b)
 
 void bubblesort(int arr[], int n)
 {
-	for(int i=0;i<n-1;i++)
+	for(int i=0;i<n-1;i++) // n-1 bcoz in inner loop it checks with +1 of j iterate.
 	{
 		for(int j=0;j<n-1-i;j++) // -i becoz after every itertation , we get the n-i highest no. in the right.
 		{
